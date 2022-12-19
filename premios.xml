@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<premios>
+    <premio>
+        <lugar>10</lugar>
+        <regalo>Cupones de Descuento</regalo>
+    </premio>
+    <premio>
+        <lugar>9</lugar>
+        <regalo>Oso de Peluche</regalo>
+    </premio>
+    <premio>
+        <lugar>8</lugar>
+        <regalo>Pachon hermetico</regalo>
+    </premio>
+    <premio>
+        <lugar>7</lugar>
+        <regalo>Vajilla</regalo>
+    </premio>
+    <premio>
+        <lugar>6</lugar>
+        <regalo>Juego de Sartenes</regalo>
+    </premio>
+    <premio>
+        <lugar>5</lugar>
+        <regalo>Cafetera</regalo>
+    </premio>
+    <premio>
+        <lugar>4</lugar>
+        <regalo>Freidora de Aire</regalo>
+    </premio>
+    <premio>
+        <lugar>3</lugar>
+        <regalo>Smartphone</regalo>
+    </premio>
+    <premio>
+        <lugar>2</lugar>
+        <regalo>Smart TV</regalo>
+    </premio>
+    <premio>
+        <lugar>1</lugar>
+        <regalo>Q10000.00</regalo>
+    </premio>
+</premios
