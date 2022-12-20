@@ -1,16 +1,4 @@
 digraph G{
 
-rankdir=LR; 
- node[shape=component, style=filled, color=skyBlue, fontname="Century Gothic"]; 
- graph [fontname="Century Gothic"]; 
- labelloc="t"; label="Cola de jugadores"; 
-Jugador310[label="Nombre: Jugador3\nEdad: 10\nMovimientos: 18\nTamaño: 15\nFigura: arbol\nPunteo: 350"]
-Jugador556[label="Nombre: Jugador5\nEdad: 56\nMovimientos: 7\nTamaño: 20\nFigura: arbol\nPunteo: 425"]
-Jugador633[label="Nombre: Jugador6\nEdad: 33\nMovimientos: 16\nTamaño: 10\nFigura: arbol\nPunteo: 325"]
-Jugador712[label="Nombre: Jugador7\nEdad: 12\nMovimientos: 10\nTamaño: 5\nFigura: arbol\nPunteo: 350"]
-Jugador841[label="Nombre: Jugador8\nEdad: 41\nMovimientos: 4\nTamaño: 5\nFigura: arbol\nPunteo: 375"]
-Jugador924[label="Nombre: Jugador9\nEdad: 24\nMovimientos: 17\nTamaño: 30\nFigura: arbol\nPunteo: 425"]
-Jugador1019[label="Nombre: Jugador10\nEdad: 19\nMovimientos: 14\nTamaño: 20\nFigura: arbol\nPunteo: 400"]
-Jugador1128[label="Nombre: Jugador11\nEdad: 28\nMovimientos: 12\nTamaño: 15\nFigura: arbol\nPunteo: 375"]
-Jugador310 -> Jugador556 -> Jugador633 -> Jugador712 -> Jugador841 -> Jugador924 -> Jugador1019 -> Jugador1128
+
 }

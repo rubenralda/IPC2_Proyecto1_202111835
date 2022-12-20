@@ -105,7 +105,7 @@
             <edad>18</edad>
         </datospersonales>
         <movimientos>13</movimientos>
-        <tamaño>16</tamaño>
+        <tamaño>10</tamaño>
         <figura>arbol</figura >
         <puzzle>
             <celda f="1" c="0" />
@@ -337,6 +337,105 @@
         </datospersonales>
         <movimientos>12</movimientos>
         <tamaño>15</tamaño>
+        <figura>arbol</figura >
+        <puzzle>
+            <celda f="1" c="0" />
+            <celda f="1" c="4" />
+            <celda f="1" c="3" />
+            <celda f="2" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="1" />
+            <celda f="4" c="2" />
+            <celda f="4" c="3" />
+            <celda f="4" c="4" />
+            <celda f="0" c="2" />
+        </puzzle>
+        <solucion>
+            <celda f="1" c="2" />
+            <celda f="2" c="1" />
+            <celda f="2" c="2" />
+            <celda f="2" c="3" />
+            <celda f="3" c="0" />
+            <celda f="3" c="1" />
+            <celda f="3" c="2" />
+            <celda f="3" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="2" />
+        </solucion>
+    </jugador>
+    <jugador>
+        <datospersonales>
+            <nombre>Jugador12</nombre>
+            <edad>28</edad>
+        </datospersonales>
+        <movimientos>13</movimientos>
+        <tamaño>10</tamaño>
+        <figura>arbol</figura >
+        <puzzle>
+            <celda f="1" c="0" />
+            <celda f="1" c="4" />
+            <celda f="1" c="3" />
+            <celda f="2" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="1" />
+            <celda f="4" c="2" />
+            <celda f="4" c="3" />
+            <celda f="4" c="4" />
+            <celda f="0" c="2" />
+        </puzzle>
+        <solucion>
+            <celda f="1" c="2" />
+            <celda f="2" c="1" />
+            <celda f="2" c="2" />
+            <celda f="2" c="3" />
+            <celda f="3" c="0" />
+            <celda f="3" c="1" />
+            <celda f="3" c="2" />
+            <celda f="3" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="2" />
+        </solucion>
+    </jugador>
+    <jugador>
+        <datospersonales>
+            <nombre>Jugador13</nombre>
+            <edad>28</edad>
+        </datospersonales>
+        <movimientos>28</movimientos>
+        <tamaño>25</tamaño>
+        <figura>arbol</figura >
+        <puzzle>
+            <celda f="1" c="0" />
+            <celda f="1" c="4" />
+            <celda f="1" c="3" />
+            <celda f="2" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="1" />
+            <celda f="4" c="2" />
+            <celda f="4" c="3" />
+            <celda f="4" c="4" />
+            <celda f="0" c="2" />
+        </puzzle>
+        <solucion>
+            <celda f="1" c="2" />
+            <celda f="2" c="1" />
+            <celda f="2" c="2" />
+            <celda f="2" c="3" />
+            <celda f="3" c="0" />
+            <celda f="3" c="1" />
+            <celda f="3" c="2" />
+            <celda f="3" c="3" />
+            <celda f="3" c="4" />
+            <celda f="4" c="2" />
+        </solucion>
+    </jugador>
+    <jugador>
+        <datospersonales>
+            <nombre>Jugador14</nombre>
+            <edad>28</edad>
+        </datospersonales>
+        <movimientos>19</movimientos>
+        <tamaño>30</tamaño>
         <figura>arbol</figura >
         <puzzle>
             <celda f="1" c="0" />
