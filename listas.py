@@ -56,6 +56,10 @@ class ListaJugadores:
                 print("\nError: La cantidad de movimientos no es correcta.\n")
                 continue
             total_mov += int(movimientos)
+            celdas1 = jugador.findall("./puzzle/celda")
+            puzzle = self.guardar_puzle(celdas1,int(tamaño))
+            celdas2 = jugador.findall("./solucion/celda")
+            solucion = self.guardar_puzle(celdas2,int(tamaño))
             nuevo = NodoJugador(nombre, edad, movimientos,
                                 tamaño, figura, puzzle, solucion)
             nuevo.punteo = self.calcular_punteo(
@@ -66,13 +70,28 @@ class ListaJugadores:
                 self.ultimo.siguiente = nuevo
                 self.ultimo = nuevo
 
+    def guardar_puzle(self,celdas,tamaño: int) -> str:
+        text = ""
+        siguiente_marca=0
+        for f in range(tamaño):
+            for c in range(tamaño):
+                if len(celdas) <= siguiente_marca:
+                    text += "-"
+                    continue
+                if int(celdas[siguiente_marca].get("f")) == f and int(celdas[siguiente_marca].get("c")) == c:
+                    text += "*"
+                    siguiente_marca += 1
+                else:
+                    text += "-"
+            text += "\n"
+        return text
+
     def avanzar_jugador(self):
         if self.primero != None:
-            print("\n¡El " + self.primero.nombre +
-                  " jugador termino de jugar!\n")
+            print("\n¡El jugador " + self.primero.nombre +
+                  " termino de jugar!\n")
             self.primero = self.primero.siguiente
-        else:
-            print("\nAdvertencia: La cola esta vacia.\n")
+        
 
     def calcular_punteo(self, dimension: int, movimientos: int, figura: str):
         punteo = 0
@@ -141,7 +160,7 @@ class ListaTop10:
 
     def agregar_jugador(self, nuevo: NodoJugador):
         if nuevo == None:
-            print("La cola esta vacia.")
+            print("\nLa cola esta vacia.\n")
             return
         nuevo.siguiente = None
         if self.ultimo == None:
@@ -204,7 +223,7 @@ class ListaTop10:
     
     def eliminar_ultimo(self):
         if self.ultimo == None:
-            print("No hay Top 10")
+            print("\nNo hay Top 10 de jugadores\n")
             return None
         if self.ultimo.anterior != None:
             self.ultimo = self.ultimo.anterior
@@ -215,7 +234,7 @@ class ListaTop10:
         else:
             self.conteo = 0
             self.ultimo = None
-            print("Ultimo premio entregado")
+            print("\nUltimo premio entregado\n")
             return self.primero
 
 
