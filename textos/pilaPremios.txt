@@ -4,9 +4,6 @@ rankdir=TB;
  node[shape=cds, style=filled, color=pink, fontname="Century Gothic"]; 
  graph [fontname="Century Gothic"]; 
  labelloc="t"; label="Pila de premios"; 
-10[label="Lugar: 10\nPremio: Cupones de Descuento"]
-9[label="Lugar: 9\nPremio: Oso de Peluche"]
-8[label="Lugar: 8\nPremio: Pachon hermetico"]
 7[label="Lugar: 7\nPremio: Vajilla"]
 6[label="Lugar: 6\nPremio: Juego de Sartenes"]
 5[label="Lugar: 5\nPremio: Cafetera"]
@@ -14,5 +11,5 @@ rankdir=TB;
 3[label="Lugar: 3\nPremio: Smartphone"]
 2[label="Lugar: 2\nPremio: Smart TV"]
 1[label="Lugar: 1\nPremio: Q10000.00"]
-10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1
+7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1
 }

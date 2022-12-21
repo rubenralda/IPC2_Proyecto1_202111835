@@ -4,7 +4,6 @@ rankdir=LR;
  node[shape=component, style=filled, color=skyBlue, fontname="Century Gothic"]; 
  graph [fontname="Century Gothic"]; 
  labelloc="t"; label="Cola de jugadores"; 
-Jugador418[label="Nombre: Jugador4\nEdad: 18\nMovimientos: 13\nTamaño: 10\nFigura: arbol\nPunteo: 350"]
 Jugador556[label="Nombre: Jugador5\nEdad: 56\nMovimientos: 7\nTamaño: 20\nFigura: arbol\nPunteo: 425"]
 Jugador633[label="Nombre: Jugador6\nEdad: 33\nMovimientos: 16\nTamaño: 10\nFigura: arbol\nPunteo: 325"]
 Jugador712[label="Nombre: Jugador7\nEdad: 12\nMovimientos: 10\nTamaño: 5\nFigura: arbol\nPunteo: 350"]
@@ -15,5 +14,5 @@ Jugador1128[label="Nombre: Jugador11\nEdad: 28\nMovimientos: 12\nTamaño: 15\nFig
 Jugador1228[label="Nombre: Jugador12\nEdad: 28\nMovimientos: 13\nTamaño: 10\nFigura: arbol\nPunteo: 350"]
 Jugador1328[label="Nombre: Jugador13\nEdad: 28\nMovimientos: 28\nTamaño: 25\nFigura: arbol\nPunteo: 375"]
 Jugador1428[label="Nombre: Jugador14\nEdad: 28\nMovimientos: 19\nTamaño: 30\nFigura: arbol\nPunteo: 425"]
-Jugador418 -> Jugador556 -> Jugador633 -> Jugador712 -> Jugador841 -> Jugador924 -> Jugador1019 -> Jugador1128 -> Jugador1228 -> Jugador1328 -> Jugador1428
+Jugador556 -> Jugador633 -> Jugador712 -> Jugador841 -> Jugador924 -> Jugador1019 -> Jugador1128 -> Jugador1228 -> Jugador1328 -> Jugador1428
 }
